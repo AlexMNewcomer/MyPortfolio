@@ -14,7 +14,7 @@ import AboutMe from './pages/AboutMe';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />, 
+    element: <App />,  
     errorElement: <Error />,
     children: [
       {
