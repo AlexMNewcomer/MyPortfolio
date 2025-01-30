@@ -13,3 +13,4 @@ export default function AboutMe() {
     </div>
   );
 }
+import './AboutMe.css';

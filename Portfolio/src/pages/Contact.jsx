@@ -11,3 +11,4 @@ export default function Contact() {
     </div>
   );
 }
+import './Contact.css';
