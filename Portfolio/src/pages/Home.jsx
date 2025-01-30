@@ -21,3 +21,5 @@ Outside of work, I spend a lot of time at the gym trying to maintain a healthy b
     </div>
   );
 }
+
+import './Home.css';
