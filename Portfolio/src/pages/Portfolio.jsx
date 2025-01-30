@@ -1,3 +1,4 @@
+import React from 'react';
 export default function Portfolio() {
   return (
     <section>
@@ -10,5 +11,5 @@ export default function Portfolio() {
     </section>
   );
 }
-
+import './Portfolio.css';
     
