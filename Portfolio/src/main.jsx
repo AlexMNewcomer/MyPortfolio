@@ -8,8 +8,8 @@ import App from './App';
 import Error from './pages/Portfolio';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import About from './pages/AboutMe';
-import Blog from './pages/Resume';
+import AboutMe from './pages/AboutMe';
+import Resume from './pages/Resume';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -24,15 +24,19 @@ const router = createBrowserRouter([
       },
       {
         path: '/AboutMe',
-        element: <About />,
+        element: <AboutMe />,
       },
       {
         path: '/Resume',
-        element: <Blog />,
+        element: <Resume />,
       },
       {
         path: '/Contact',
         element: <Contact />,
+      },
+      {
+        path: '/Portfolio',
+        element: <Portfolio />,
       },
     ],
   },
