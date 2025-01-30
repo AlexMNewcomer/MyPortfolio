@@ -4,39 +4,30 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import App from './App';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import About from './pages/About';
 import Portfolio from './pages/Portfolio';
-import Home from './pages/Home';
 import Contact from './pages/Contact';
-import AboutMe from './pages/AboutMe';
+import Resume from './pages/Resume';
 
-// Define the accessible routes, and which components respond to which URL
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,  
-    errorElement: <Error />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      {
-        path: '/AboutMe',
-        element: <AboutMe />,
-      },
-      {
-        path: '/Contact',
-        element: <Contact />,
-      },
-      {
-        path: '/Portfolio',
-        element: <Portfolio />,
-      },
-    ],
-  },
-]);
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
-);
+export default App;
