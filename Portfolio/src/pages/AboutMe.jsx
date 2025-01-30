@@ -1,4 +1,3 @@
-import React from 'react';
 export default function AboutMe() {
   return (
     <div>
@@ -14,4 +13,4 @@ export default function AboutMe() {
     </div>
   );
 }
-import './AboutMe.css';
+import '../styles/AboutMe.css';

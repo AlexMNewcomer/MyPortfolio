@@ -1,4 +1,3 @@
-import React from 'react';
 export default function Home() {
   return (
     <div>
@@ -23,4 +22,4 @@ Outside of work, I spend a lot of time at the gym trying to maintain a healthy b
   );
 }
 
-import './Home.css';
+import '../styles/Home.css';

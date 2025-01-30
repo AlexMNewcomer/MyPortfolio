@@ -1,4 +1,3 @@
-import React from 'react';
 export default function Contact() {
   return (
     <div>
@@ -12,4 +11,4 @@ export default function Contact() {
     </div>
   );
 }
-import './Contact.css';
+import '../styles/Contact.css';
