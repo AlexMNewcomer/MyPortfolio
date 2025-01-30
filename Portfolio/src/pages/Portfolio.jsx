@@ -4,8 +4,8 @@ export default function Portfolio() {
       <h2>Resume</h2>
       <a href="file:///Users/alexnewcomer/Downloads/Resume.pdf" download>Download Resume</a>
       <ul>
-        <li>Proficiency 1</li>
-        <li>Proficiency 2</li>
+        <li>Skills include: Programming (html/css/javascript/typescript) | Communication | Team Work | Leadership | Training | Microsoft Office</li>
+        <li>Certifiactions include: First Aid | CPR | AED</li>
       </ul>
     </section>
   );
