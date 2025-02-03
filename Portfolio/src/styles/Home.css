@@ -157,3 +157,13 @@ body {
   margin-top: 80px;
   font-family: 'Poppins', sans-serif;
 }
+
+.home-photo {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%; /* Makes it a circular image */
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #facc15; /* Yellow border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
