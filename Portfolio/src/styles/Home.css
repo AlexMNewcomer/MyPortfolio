@@ -7,7 +7,7 @@
   height: 100vh;
   background: linear-gradient(135deg, #0f172a, #1e293b);
   color: white;
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: center;
   padding: 40px;
   font-family: 'Poppins', sans-serif;
@@ -149,4 +149,11 @@ footer a {
 footer a:hover {
   color: #facc15;
   transform: scale(1.2);
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  margin-top: 80px;
+  font-family: 'Poppins', sans-serif;
 }
