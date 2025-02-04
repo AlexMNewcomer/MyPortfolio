@@ -11,7 +11,7 @@ My Readt Portfolio
 [Questions](#questions)
 
 ## Description
-A personal portfolio created using React
+A personal portfolio created using React that allows users to get to know me, learn the ways to reach me, and gather information on my work history.
 
 ## Installation
 To install the necessary dependencies, run the following command:
