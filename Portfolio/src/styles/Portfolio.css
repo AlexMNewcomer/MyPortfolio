@@ -1,0 +1,39 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #0f172a;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    background: #facc15;
+    color: black;
+  }
